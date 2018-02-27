@@ -316,16 +316,16 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lora", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"serif;
   text-transform: none;
   font-style: none;
   font-weight: 400;
   margin-bottom: 75px;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   section {
     padding: 150px 0;
-  }
+  }*/
 }
 .service-heading {
   margin: 15px 0;
@@ -391,7 +391,7 @@ section h3.section-subheading {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
