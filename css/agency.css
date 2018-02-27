@@ -38,7 +38,6 @@ a.active {
 }
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -50,6 +49,15 @@ h6 {
 h2 {
 	font-weight: 900;
 	letter-spacing: 2px;
+}
+h3 {
+  font-family: "Lora", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 400;
+	letter-spacing: 1px;
+  font-style: none;
+  margin-bottom: 75px;
 }
 .img-centered {
   margin: 0 auto;
@@ -316,7 +324,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Lora", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"serif;
+  font-family: "Lora", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
   text-transform: none;
   font-style: none;
   font-weight: 400;
