@@ -243,10 +243,10 @@ header {
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-position: center center;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  background-size: 100% auto;
-  -o-background-size: 100% auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   text-align: center;
   color: white;
 }
@@ -799,7 +799,7 @@ body {
 	}
 aside.calltoaction {
 	background-color: #fed136;
-	padding: 25px 0;
+	padding: 25px;
 	text-align: center;
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   	font-style: italic;
@@ -834,8 +834,7 @@ aside.calltoaction .list-inline {
 	font-weight: 400;
 	margin-bottom: 50px;
 }
-	}
-.text-white {
+.contactsub {
 	color: #FFFFFF;		
 }
 #mc-embedded-subscribe {
